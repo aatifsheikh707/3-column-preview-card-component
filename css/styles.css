@@ -2,10 +2,14 @@
 .container {
   display: flex;
   max-width: 1440px;
-  margin:20vh 40vh;
+  margin: 12vh auto;
+  justify-content: center;
+  align-content: center;
+  
 }
 
 .container > * {
+  width: 150px
 
 }
 body {
@@ -92,5 +96,21 @@ p {
 
   .container {
     flex-direction: column;
-    margin: 10vh 0vh;
-  }}
+    margin: 5vh auto;
+    align-items: center;
+  }
+    .one {
+
+      border-top-left-radius: 12px;
+      border-top-right-radius: 12px;
+      border-bottom-left-radius: 0;
+    }
+    
+    .three {
+ 
+      border-top-right-radius: 0px;
+      border-bottom-right-radius: 12px;
+      border-bottom-left-radius: 12px;
+
+    }
+  }
